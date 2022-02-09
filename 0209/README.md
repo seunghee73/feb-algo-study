@@ -3,7 +3,7 @@
 #### 재귀 문제
 
 ```
-백준 17478
+백준 2705
 ```
 
 https://www.acmicpc.net/problem/2705
