@@ -5,6 +5,7 @@ def comb (n, r):
         return lst[1]
     else :
         return lst[comb(n-1,r-1) + comb(n-1,r)]
+# combination 개수 세는 재귀 함수
 
 while True:
     lst = list(map(int,input().split()))
