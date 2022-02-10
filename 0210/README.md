@@ -7,3 +7,8 @@
 ```
 
 https://www.acmicpc.net/problem/6603
+
+```
+재귀 함수로 순열 구현시 참고
+```
+https://velog.io/@sloools/Python-%EC%88%9C%EC%97%B4Permutation-%EC%A1%B0%ED%95%A9Combination
