@@ -65,19 +65,20 @@
 
 - 0221 [백준 10158. 개미](https://www.acmicpc.net/problem/10158) (IM)  
 
-  0221 [백준 10163. 색종이](https://www.acmicpc.net/problem/10163) (IM)  
+  0221 [백준 10163. 색종이](https://www.acmicpc.net/problem/10163) (IM)
   
-- 0222 [백준 13300. 방배정](https://www.acmicpc.net/problem/13300) / 시간 제한 30분 (IM)  
-
-  0222 [백준 10157. 자리배정](https://www.acmicpc.net/problem/10157) / 시간 제한 30분 (IM)  
+- 0222 [백준 13300. 방배정](https://www.acmicpc.net/problem/13300) / 시간 제한 30분 (IM) 
+  
+  0222 [백준 10157. 자리배정](https://www.acmicpc.net/problem/10157) / 시간 제한 30분 (IM)
   
 - 0223 [백준 14696. 딱지놀이](https://www.acmicpc.net/problem/14696) (IM)   
 
-  0223 [백준 2527. 직사각형](https://www.acmicpc.net/problem/2527) (IM)   
+  0223 [백준 2527. 직사각형](https://www.acmicpc.net/problem/2527) (IM) 
   
-- 0224 [백준 2309. 일곱난쟁이](https://www.acmicpc.net/problem/2309) / 시간 제한 30분 (IM)    
-  0224 [백준 2477. 참외밭](https://www.acmicpc.net/problem/2477) / 시간 제한 30분 (IM)  
+- 0224 [백준 2309. 일곱난쟁이](https://www.acmicpc.net/problem/2309) / 시간 제한 30분 (IM)
+  
+  0224 [백준 2477. 참외밭](https://www.acmicpc.net/problem/2477) / 시간 제한 30분 (IM)
   
 - 0225 [백준 2605. 줄세우기](https://www.acmicpc.net/problem/2605) (IM)  
 
-  0225 [백준 2578. 빙고](https://www.acmicpc.net/problem/2578) (IM)  
+  0225 [백준 2578. 빙고](https://www.acmicpc.net/problem/2578) (IM)
