@@ -56,34 +56,52 @@
 # print(lst)
 # 더 나아졌지만 여전히 너무 오래 걸림ㅠ
 
-N = int(input())
-
-ans =[]
-chk = [False] * (N+1)
-result = []
-lst = []
-def recur(num):
-    if num == N:
-        result.append(list(ans))
-        return
-    for i in range(1, N+1):
-        if chk[i]==False:
-            chk[i] = True
-            ans.append(i)
-            recur(num+1)
-            chk[i] = False
-            ans.pop()
-recur(0)
-for i in result:
-    stack = []
-    here = 0
-    for j in i:
-        while here < j:
-            here += 1
-            stack.append(here)
-        if stack[-1] == j:
-            stack.pop()
-        else:
-            break
-    else: print(' '.join(map(str,i)))
+# N = int(input())
+#
+# ans =[]
+# chk = [False] * (N+1)
+# result = []
+# lst = []
+# def recur(num):
+#     if num == N:
+#         result.append(list(ans))
+#         return
+#     for i in range(1, N+1):
+#         if chk[i]==False:
+#             chk[i] = True
+#             ans.append(i)
+#             recur(num+1)
+#             chk[i] = False
+#             ans.pop()
+# recur(0)
+# for i in result:
+#     stack = []
+#     here = 0
+#     for j in i:
+#         while here < j:
+#             here += 1
+#             stack.append(here)
+#         if stack[-1] == j:
+#             stack.pop()
+#         else:
+#             break
+#     else: print(' '.join(map(str,i)))
 # 두 과정을 하나로 합쳐야 할듯
+
+n = int(input())
+ST = [[[1], [], 1]]
+while ST:
+    push_list, pop_list, visited_here = ST.pop()
+    if visited_here == n and not push_list:
+        print(*pop_list)
+        continue
+    if visited_here != n:
+        temp_push = list(push_list)
+        temp_push.append(visited_here+1)
+        ST.append([temp_push, pop_list, visited_here+1])
+    if push_list:
+        temp_push = list(push_list)
+        temp_pop = list(pop_list)
+        temp_pop.append(temp_push.pop())
+        ST.append([temp_push, temp_pop, visited_here])
+# 드디어 해냈다 ^^ 역시 사람은 배워야한다 ^^
